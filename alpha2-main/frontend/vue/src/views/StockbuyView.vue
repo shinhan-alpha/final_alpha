@@ -34,7 +34,7 @@
                 </table>
             </div>
             <div>
-                <img id="stock" src="../../images/stocks.png" style="left:0; position:absolute">    
+                <img id="stock" src="../images/stocks.png" style="left:0; position:absolute">    
             </div>
             <div class="user-input">
                 <div class="ml-3">
@@ -171,7 +171,7 @@ export default {
         };
         const headers = { 'Authorization': `JWT ${localStorage.getItem('access_token')}` };
         axios
-            .post("http://127.0.0.1:8000/api/stock/cart", data, { headers })
+            .post("http://34.64.108.15:8000/api/stock/cart", data, { headers })
             .then(() => {
                 console.log('장바구니 데이터 반영');
             })

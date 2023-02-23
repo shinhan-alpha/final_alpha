@@ -45,7 +45,7 @@
               </div>
               <div v-if="selectedTab == 'first'">
                 <div>
-                  <img src="../../images/cur.png" style="width:304px; height: 350px;object-fit:cover"/>
+                  <img src="../images/cur.png" style="width:304px; height: 350px;object-fit:cover"/>
                 </div>
                 <!-- <div class="container">
                   <div class="box" v-for="(item, index) in items" :key="index">
