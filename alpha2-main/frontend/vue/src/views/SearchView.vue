@@ -70,7 +70,7 @@ export default {
         stock_pr: stock.preRate,
       };
       axios
-        .put("http://127.0.0.1:8000/api/stock/", data)
+        .put("http://34.64.108.15:8000/api/stock/", data)
         .then(() => {
           console.log('주식 데이터 반영');
         })
